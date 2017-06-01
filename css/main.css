@@ -1,0 +1,134 @@
+body {
+  background: #EAEAEA url(../img/squared_metal.png);
+  font-size: 16px;
+}
+
+#cv {
+  background: #FFFFFF;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  margin: 60px 0;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+  height: 100%;
+  background: #2c3e50;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+nav a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#contact-list {
+  margin-top: 30px;
+}
+
+#contact-list li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#contact-list li i {
+  margin-right: 10px;
+}
+
+#contact-list li a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#contact-list li:hover {
+  color: #FFFFFF;
+}
+
+#contact-list li:hover a {
+  color: #FFFFFF;
+  text-decoration: none
+}
+
+
+/* PROFILE */
+
+#profile {
+  padding: 30px;
+  background: #34495e;
+}
+
+#profile .name,
+#profile .profession {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#profile .profile-image {
+  margin: 0 auto;
+  display: block;
+}
+
+#main {
+  padding: 60px 60px 60px 30px;
+}
+
+
+/* CV Content */
+
+#main section {
+  margin-top: 60px;
+}
+
+#main section header {
+  border-bottom: 1px solid #2c3e50;
+  margin-bottom: 15px;
+}
+
+#main section header h2 {
+  color: #2c3e50;
+}
+
+#main .cv-item {
+  margin-bottom: 30px;
+}
+
+#main .cv-item .meta {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+/* Gallery */
+
+#gallery .gallery-item {
+  display: block;
+  margin-bottom: 30px;
+}
+
+
+/* same height columns for bootstrap */
+
+@media(min-width:768px) {
+  .row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    vertical-align: top;
+  }
+}
